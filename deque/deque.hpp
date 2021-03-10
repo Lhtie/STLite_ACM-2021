@@ -10,7 +10,7 @@ namespace sjtu {
 template<class T>
 class deque {
 private:
-	const static int BLOCK_SIZE = 400;
+	const static int BLOCK_SIZE = 300;
 	struct block{
 		T* arr[BLOCK_SIZE+10];
 		size_t size;
